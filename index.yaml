@@ -1,0 +1,122 @@
+apiVersion: v1
+entries:
+  contrail:
+  - apiVersion: v1
+    appVersion: Contrail 5.0.0
+    created: "2020-04-17T18:37:35.299458469Z"
+    description: Helm chart for Contrail SDN
+    digest: sha256:731e0596535867a7ed9f2e7153cfbb5393f01705de3de988a2d2cc897d6e0fe0
+    home: https://github.com/tungstenfabric/tf-helm-deployer/
+    keywords:
+    - Contrail
+    - SDN
+    name: contrail
+    sources:
+    - https://github.com/Juniper/contrail-controller/
+    tillerVersion: '>=2.4.0'
+    urls:
+    - http://127.0.0.1:8879/charts/contrail-0.1.0.tgz
+    version: 0.1.0
+  contrail-analytics:
+  - apiVersion: v1
+    appVersion: Contrail 5.0.0
+    created: "2020-04-17T18:37:20.485035621Z"
+    description: Helm chart for Contrail Analytics
+    digest: sha256:5f11b0d26b68a78a8fde785864556ad5476837fe41560d5a3b6c50a2fa1d6667
+    home: https://github.com/tungstenfabric/tf-helm-deployer/
+    keywords:
+    - Contrail
+    - SDN
+    name: contrail-analytics
+    sources:
+    - https://github.com/Juniper/contrail-controller/
+    tillerVersion: '>=2.4.0'
+    urls:
+    - http://127.0.0.1:8879/charts/contrail-analytics-0.1.0.tgz
+    version: 0.1.0
+  contrail-controller:
+  - apiVersion: v1
+    appVersion: Contrail 5.0.0
+    created: "2020-04-17T18:37:12.029429436Z"
+    description: Helm chart for Contrail controller
+    digest: sha256:fe1680b62860823e844c20d4004d4e42976a5696a6904cb31802d0cc531279c5
+    home: https://github.com/tungstenfabric/tf-helm-deployer/
+    keywords:
+    - Contrail
+    - SDN
+    name: contrail-controller
+    sources:
+    - https://github.com/Juniper/contrail-controller/
+    tillerVersion: '>=2.4.0'
+    urls:
+    - http://127.0.0.1:8879/charts/contrail-controller-0.1.0.tgz
+    version: 0.1.0
+  contrail-k8s:
+  - apiVersion: v1
+    appVersion: Contrail 5.0.0
+    created: "2020-04-17T18:37:50.303215535Z"
+    description: Helm chart for Contrail SDN for k8s with CNI
+    digest: sha256:08447519ff8e1169b17fd672a343108cd0f3ad3f10013127371c0576a9a56353
+    home: https://github.com/tungstenfabric/tf-helm-deployer/
+    keywords:
+    - Contrail
+    - SDN
+    name: contrail-k8s
+    sources:
+    - https://github.com/Juniper/contrail-controller/
+    tillerVersion: '>=2.4.0'
+    urls:
+    - http://127.0.0.1:8879/charts/contrail-k8s-0.1.0.tgz
+    version: 0.1.0
+  contrail-thirdparty:
+  - apiVersion: v1
+    appVersion: Contrail 5.0.0
+    created: "2020-04-17T18:37:03.67204493Z"
+    description: Helm chart for Contrail thirdparty components
+    digest: sha256:9ee56fc14f4b779a969fc0dcc50305778e76520520f32ce1ca6a20f3ae237e77
+    home: https://github.com/tungstenfabric/tf-helm-deployer/
+    keywords:
+    - Contrail
+    - SDN
+    name: contrail-thirdparty
+    sources:
+    - https://github.com/Juniper/contrail-controller/
+    tillerVersion: '>=2.4.0'
+    urls:
+    - http://127.0.0.1:8879/charts/contrail-thirdparty-0.1.0.tgz
+    version: 0.1.0
+  contrail-vrouter:
+  - apiVersion: v1
+    appVersion: Contrail 5.0.0
+    created: "2020-04-17T18:36:56.101906608Z"
+    description: Helm chart for Contrail vrouter
+    digest: sha256:19e3fd3a7d435ebca07e1d3738c26fe9ef382792fb24d6689b61fb804a2f537c
+    home: https://github.com/tungstenfabric/tf-helm-deployer/
+    keywords:
+    - Contrail
+    - SDN
+    name: contrail-vrouter
+    sources:
+    - https://github.com/Juniper/contrail-controller/
+    tillerVersion: '>=2.4.0'
+    urls:
+    - http://127.0.0.1:8879/charts/contrail-vrouter-0.1.0.tgz
+    version: 0.1.0
+  helm-toolkit-contrail:
+  - apiVersion: v1
+    created: "2020-04-17T18:36:37.95209793Z"
+    description: OpenStack-Helm Helm-Toolkit for contrail
+    digest: b7a33752d8390132732f3a29f4b4a0ea32fd7ffcb60c4236e961d562954a7be2
+    name: helm-toolkit-contrail
+    urls:
+    - http://127.0.0.1:8879/helm-toolkit-contrail-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    created: "2020-04-17T18:36:48.077022517Z"
+    description: OpenStack-Helm Helm-Toolkit for contrail
+    digest: sha256:0f4c44864ae7b509f44071f96ca467fa27506a53a824f4d767834c9230189999
+    name: helm-toolkit-contrail
+    urls:
+    - http://127.0.0.1:8879/charts/helm-toolkit-contrail-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-17T18:36:37.950623554Z"
